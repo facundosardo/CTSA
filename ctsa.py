@@ -107,7 +107,7 @@ def main():
         # Extract city by checking presence of cities of interest in the full text
         container_text = prof.text
         city_name = None
-        for city in CITIES_OF_INTEREST:
+        for city in TARGET_CITIES:
             if city.lower() in container_text.lower():
                 city_name = city
                 break
