@@ -12,12 +12,16 @@ from webdriver_manager.chrome import ChromeDriverManager
 MASTER_FILE = "ctsa.csv"
 NEW_FILE = "ctsa_newprof.csv"
 
-# Cities of interest to filter professionals
-CITIES_OF_INTEREST = [
-    "Bethel", "Bridgeport", "Brookfield", "Danbury", "Darien", "Easton",
-    "Fairfield", "Greenwich", "Monroe", "New Canaan", "Newtown", "Norwalk",
-    "Redding", "Ridgefield", "Shelton", "Sherman", "Stamford", "Stratford",
-    "Trumbull", "Weston", "Westport", "Wilton", "New Fairfield", "New Haven"
+# List of target cities to filter professionals
+TARGET_CITIES = [
+    "Ansonia", "Beacon Falls", "Bethany", "Branford", "Cheshire", "Derby",
+    "East Haven", "Guilford", "Hamden", "Madison", "Meriden", "Middlebury",
+    "New Haven", "North Branford", "North Haven", "Orange", "Oxford", "Prospect",
+    "Seymour", "Shelton", "Southbury", "Wallingford", "Waterbury", "West Haven",
+    "Woodbridge", "Bethel", "Bridgeport", "Brookfield", "Danbury", "Darien",
+    "Easton", "Fairfield", "Greenwich", "Monroe", "New Canaan", "Newtown",
+    "Norwalk", "Redding", "Ridgefield", "Shelton", "Sherman", "Stamford",
+    "Stratford", "Trumbull", "Weston", "Westport", "Wilton", "New Fairfield",
 ]
 
 def main():
